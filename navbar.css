@@ -1,0 +1,104 @@
+.navbar{
+    display: flex;
+     gap: 150px;
+     justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px;
+}
+.logo{
+    width: 120px;
+}
+.search-bar{
+    width: 310px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 40px;
+    margin-left: 140px;
+}
+.about{
+     width: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile{
+    width: 60px;
+    /* height: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+    border: 1px solid grey;
+    border-radius: 24px;
+
+
+}
+.search{
+    width: 110px;
+    display: flex;
+    background-color: transparent;
+}
+.input{
+    padding: 15px;
+    border: none;
+    width: 100%;
+    margin-left: -10px;
+}
+.search-btn{
+    background-color: transparent;
+    padding: 0;
+    border:none;
+    
+}
+.nav-text{
+
+    font-weight: 550;
+}
+.icons-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icons{
+    width: 25px;
+}
+.icon-descp{
+    margin-top: -2px;
+}
+.icon-box{
+    text-align: center;
+}
+.direction-icon{
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+.filter{
+    width: 80px;
+    height: 30px;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 550;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.price{
+    width: 700px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 8px;
+    margin: 10px auto;
+    border: 2px solid grey;
+    border-radius: 14px;
+}
+.tax{
+    display: flex;
+   gap: 240px;
+   padding-right: 10px;
+    align-items: center;
+}
